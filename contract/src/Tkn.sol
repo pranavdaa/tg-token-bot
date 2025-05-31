@@ -21,5 +21,5 @@ contract Tkn is ERC20 {
     function symbol() public view override returns (string memory) { return _symbol; }
     function totalSupply() public view override returns (uint256) { return _totalSupply * 10 ** _decimals; }
     function decimals() public view override returns (uint8) { return _decimals; }
-    function mint(address to, uint256 amount) external { _mint(to, amount); }
+    function mint(address to, uint256 amount) external virtual { _mint(to, amount); }
 }

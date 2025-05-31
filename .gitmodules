@@ -3,4 +3,4 @@
 	url = https://github.com/foundry-rs/forge-std
 [submodule "contract/lib/solady"]
 	path = contract/lib/solady
-	url = https://github.com/Vectorized/solady
+	url = https://github.com/vectorized/solady
